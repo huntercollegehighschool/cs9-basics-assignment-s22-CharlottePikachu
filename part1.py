@@ -18,6 +18,8 @@ The sum of the numbers you entered is 40
 '''
 
 #code starts here
-nums = []
+sum = 0
 for i in range(5):
-  nums.append(int(input(""))
+  sum += int(input("Please enter a number: "))
+  
+print("The sum of the numbers that you entered is ", sum)             
