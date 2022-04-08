@@ -22,4 +22,4 @@ sum = 0
 for i in range(5):
   sum += int(input("Please enter a number: "))
   
-print("The sum of the numbers that you entered is ", sum)             
+print("The sum of the numbers that you entered is", sum)             
