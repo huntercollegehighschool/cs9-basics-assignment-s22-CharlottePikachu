@@ -18,7 +18,8 @@ The sum of the numbers you entered is 40
 '''
 
 #code starts here
-first_value = int(input("Enter a number: "))
-second_value = int(input("Enter a second number: "))
-
-print("The sum of the numbers you entered is", first_value + second_value)
+sum = 0
+for i in range(5):
+  sum += int(input("Please enter a number: "))
+  
+print("The sum of the numbers that you entered is", sum)             
